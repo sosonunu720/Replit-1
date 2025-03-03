@@ -1,0 +1,42 @@
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+#resultContainer {
+    transition: all 0.3s ease;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+#generatedText {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+textarea.form-control {
+    min-height: 100px;
+    resize: vertical;
+}
